@@ -5,12 +5,10 @@ int main ()
 	int i,cant,cal1, rep;
 	do{
 		printf("Bienvenido!!!\n");
-		printf("\nDigite la cantidad de notas que va a ingresar\n: ");
-		scanf("%d",&cant);
+		printf("\nDigite la cantidad de notas que va a ingresar\n: ");scanf("%d",&cant);
 		suma=0.0;
 		for(i=0;i<cant;i++){
-			printf("\nDigite su calificacion %i\n: ", i+1);
-			scanf("%d",&cal1);
+			printf("\nDigite su calificacion %i\n: ", i+1);scanf("%d",&cal1);
 			suma=suma+cal1;
 		}
 		promedio=suma/cant;
